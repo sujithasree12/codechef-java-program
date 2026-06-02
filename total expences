@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int T=sc.nextInt();
+		while(T-->0)
+		{
+		    int quantity=sc.nextInt();
+		    int price=sc.nextInt();
+		    double total=quantity*price;
+		    if (quantity>1000)
+		    {
+		      total=total-(total*0.10);
+		    }
+		    System.out.println(total);
+		    
+		}
+
+	}
+}
