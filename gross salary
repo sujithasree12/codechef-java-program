@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int T=sc.nextInt();
+		
+		while(T-->0)
+		{
+	    double salary=sc.nextDouble();
+		double grosssalary;
+		
+	
+		    if(salary<1500)
+		    {
+		        grosssalary=salary+(0.10*salary)+(0.90*salary);
+		        System.out.println(grosssalary);
+		    }
+		    else if(salary>=1500)
+		    {
+		        grosssalary=salary+500+(0.98*salary);
+		        System.out.println(grosssalary);
+		    }
+		}
+
+	}
+}
