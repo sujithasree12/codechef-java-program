@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int X=sc.nextInt();
+		int c=X-100;
+		int b=c/50;
+		System.out.println(b);
+
+	}
+}
