@@ -1,0 +1,29 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int T=sc.nextInt();
+		while(T-->0)
+		{
+		    int[]sides=new int[4];
+		    sides[0]=sc.nextInt();
+		    sides[1]=sc.nextInt();
+		    sides[2]=sc.nextInt();
+		    sides[3]=sc.nextInt();
+		    Arrays.sort(sides);
+		    if((sides[0]==sides[1])&&(sides[2]==sides[3]))
+		    {
+		        System.out.println("YES");
+		    }
+		    else{
+		        System.out.println("NO");
+		       
+		    }
+		    }
+
+	}
+}
