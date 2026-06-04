@@ -1,0 +1,22 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int A=sc.nextInt();
+		int B=sc.nextInt();
+		if(B>=A*3)
+		{
+		    System.out.println("RAIN");
+		}
+		else
+		{
+		    System.out.println("DRY");
+		}
+
+	}
+}
